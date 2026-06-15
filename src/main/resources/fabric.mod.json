@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "shadedlib",
+  "version": "1.0.0",
+  "name": "Shaded Lib",
+  "description": "A shaded library bundle by km310 (MIT License).",
+  "authors": ["km310"],
+  "license": "MIT",
+  "icon": "assets/shadedlib/icon.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "me.km310.shadedlib.ShadedLibInit"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": "*",
+    "modmenu": "*"
+  },
+
+  "custom": {
+    "modmenu": {
+      "badges": ["library"]
+    }
+  }
+}
