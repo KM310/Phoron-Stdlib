@@ -1,0 +1,3 @@
+*.json linguist-language=JSON
+*.jsonc linguist-language=JSON
+*.json5 linguist-language=JSON
